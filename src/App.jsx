@@ -16,19 +16,30 @@ function App () {
 
       </div>
     </header>
+
+      <div className="menu">
+          <ul>
+            <li><a href="#home"><img src="https://cdn-icons-png.flaticon.com/256/25/25694.png" alt="" /><p>Home</p></a></li>
+            <li><a href="#projects"><img src="https://cdn-icons-png.flaticon.com/512/104/104068.png" alt="" /><p>Projects</p></a></li>
+            <li><a href="#contact"><img src="https://svgsilh.com/svg/304080.svg" alt="" /><p>Contact</p></a></li>
+          </ul>
+      </div>
+
       <div className="about-me">
         <div className="infos-about">
         <img src="eric-dev.jpeg" alt="" />
-        <h1>Olá Mundo!</h1>
-        <h3>Eu sou o Eric e este é meu portifolio onde compartilho como tem sido minha evolução no mundo da programação</h3>
+        <div className="infos-title"><h1>Olá! Eu sou o </h1> <p id="Eric"> Eric</p></div>
+        
+        <h3>Aqui é onde compartilho meu desenvolvimento na programação</h3>
         </div>
       </div>
+      
 
       <div className="projects">
         <h1> Meus Projetos</h1>
           <ul >
             <li></li>
-            <li><img src="https://sites.ufpe.br/peteconomia/wp-content/uploads/sites/12/2020/10/PetFlix.jpg" alt="petflix" /></li>
+            <li><img src="https://cdn.mindminers.com/blog/uploads/2022/11/pets.png" alt="petflix" /></li>
             <li><img src="https://pm1.narvii.com/6617/6b4b1f80ce28a54ce3f8b8db79548067d3dc62d8_00.jpg" alt="rick&morty" /></li>
             <li></li>
           </ul>

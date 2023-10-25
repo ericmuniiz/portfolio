@@ -46,6 +46,7 @@ header{
   height: 300px;
   border-radius: 250px;
   margin: 15px;
+  box-shadow: 0px 5px 10px black;
 }
 .infos-about{
   flex-wrap: wrap;
@@ -56,7 +57,7 @@ header{
 .projects{
   display: flex;
   flex-direction: column;
-  background-image: url(https://www.svgbackgrounds.com/wp-content/uploads/2021/05/protruding-squares-orange-background.png);
+  background-image: url(https://img.freepik.com/free-vector/black-background-with-hexagonal-shapes_1017-37481.jpg);
   margin-top: 25px ;
 }
 .projects h1{
@@ -66,24 +67,75 @@ header{
   color: azure;
   text-shadow: 1px 2px black;
 }
-ul{
-  display: flex;
-  justify-content: center;
-}
 li{
   list-style: none;
 }
-li img{
+
+.menu{
+  display: flex;
+  
+  background-color:cadetblue;
+  width: 70px;
+  height: 100vh;
+  position: absolute;
+  border-right: 1px solid black;
+}
+.menu li :hover{
+  transition: 1s;
+  background-color: cadetblue;
+  width: 150px;
+}
+.menu li a{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+.menu li{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+.menu li p{
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+.menu li img{
+  margin-top: 5px;
+  margin-left: -25px;
+  width: 40px !important;
+}
+
+.projects{
+  display: none;
+}
+.projects ul{
+  display: flex;
+  justify-content: center;
+}
+.projects li img{
   width: 350px;
   height: 350px;
   object-fit: cover;
   margin: 15px;
   display: flex;
+  border: 3px solid black;
 }
-li img :hover{
-  border: 1px solid black;
-
+.infos-title{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: row;
 }
 
-
+#Eric{
+  margin-left: 5px;
+  font-size: 40px;
+  font-weight: 1000;
+  color: orange;
+}
 
