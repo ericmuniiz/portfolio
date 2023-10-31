@@ -1,12 +1,14 @@
 import "./App.css";
 
+
 function App () {
 
   return (
     <>
+    <div className="container">
     <header>
-      <div className="header-name"> 
-      Portifolio
+      <div className="header-name" id="home"> 
+      Portfolio
       </div>
       <div className="header-icons">
         <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="javascript" />
@@ -25,7 +27,7 @@ function App () {
           </ul>
       </div>
 
-      <div className="about-me">
+      <div className="about-me" >
         <div className="infos-about">
         <img src="eric-dev.jpeg" alt="" />
         <div className="infos-title"><h1>Olá! Eu sou o </h1> <p id="Eric"> Eric</p></div>
@@ -34,16 +36,18 @@ function App () {
         </div>
       </div>
       
-
-      <div className="projects">
-        <h1> Meus Projetos</h1>
-          <ul >
-            <li></li>
-            <li><img src="https://cdn.mindminers.com/blog/uploads/2022/11/pets.png" alt="petflix" /></li>
-            <li><img src="https://pm1.narvii.com/6617/6b4b1f80ce28a54ce3f8b8db79548067d3dc62d8_00.jpg" alt="rick&morty" /></li>
-            <li></li>
-          </ul>
-        </div>
+      <div className="projects" id="projects">
+      <h1>Meus Projetos</h1>
+        <ul>
+          <li>
+            <a href="https://vite-petflix.vercel.app/"><img src="https://cdn.mindminers.com/blog/uploads/2022/11/pets.png" className="img-projects" /></a>
+          </li>
+          <li>
+            <a href="https://app-rick-erics-projects-714eef46.vercel.app/"><img src="https://m.media-amazon.com/images/S/pv-target-images/5fb48c45e9ef92942d6ba6c84b6dd2d314b39a4833adabb18c110f95f6bdfa45.jpg" className="img-projects"/></a>
+          </li>
+        </ul>
+      </div>
+    </div>  
     </>
   )
 }
