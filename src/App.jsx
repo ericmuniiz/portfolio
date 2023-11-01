@@ -6,8 +6,9 @@ function App () {
   return (
     <>
     <div className="container">
+    
     <header>
-      <div className="header-name" id="home"> 
+      <div className="header-name" > 
       Portfolio
       </div>
       <div className="header-icons">
@@ -19,15 +20,15 @@ function App () {
       </div>
     </header>
 
-      <div className="menu">
+    <div className="menu">
           <ul>
-            <li><a href="#home"><img src="https://cdn-icons-png.flaticon.com/256/25/25694.png" alt="" /><p>Home</p></a></li>
-            <li><a href="#projects"><img src="https://cdn-icons-png.flaticon.com/512/104/104068.png" alt="" /><p>Projects</p></a></li>
-            <li><a href="#contact"><img src="https://svgsilh.com/svg/304080.svg" alt="" /><p>Contact</p></a></li>
+            <li id="menu-home"><a href="#home"><img src="https://cdn-icons-png.flaticon.com/256/25/25694.png" alt="" /><p>Home</p></a></li>
+            <li id="menu-projects"><a href="#projects"><img src="https://cdn-icons-png.flaticon.com/512/104/104068.png" alt="" /><p>Projects</p></a></li>
+            <li id="menu-contacts"><a href="#contact"><img src="https://svgsilh.com/svg/304080.svg" alt="" /><p>Contact</p></a></li>
           </ul>
       </div>
-
-      <div className="about-me" >
+      <div id="home"></div>
+      <div className="about-me"  >
         <div className="infos-about">
         <img src="eric-dev.jpeg" alt="" />
         <div className="infos-title"><h1>Olá! Eu sou o </h1> <p id="Eric"> Eric</p></div>
