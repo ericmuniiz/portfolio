@@ -22,9 +22,9 @@ function App () {
 
     <div className="menu">
           <ul>
-            <li id="menu-home"><a href="#home"><img src="https://cdn-icons-png.flaticon.com/256/25/25694.png" alt="" /><p>Home</p></a></li>
-            <li id="menu-projects"><a href="#projects"><img src="https://cdn-icons-png.flaticon.com/512/104/104068.png" alt="" /><p>Projects</p></a></li>
-            <li id="menu-contacts"><a href="#contact"><img src="https://svgsilh.com/svg/304080.svg" alt="" /><p>Contact</p></a></li>
+            <li id="menu-home"><a href="#home"><img src="https://cdn.icon-icons.com/icons2/1673/PNG/512/homeoutline_110882.png" alt="" /><p>Home</p></a></li>
+            <li id="menu-projects"><a href="#projects"><img src="https://cdn.icon-icons.com/icons2/859/PNG/512/project_icon-icons.com_67780.png" alt="" /><p>Projects</p></a></li>
+            <li id="menu-contacts"><a href="#contact"><img src="https://cdn.icon-icons.com/icons2/2168/PNG/512/social_avatar_person_user_icon_133200.png" alt="" /><p>Contact</p></a></li>
           </ul>
       </div>
       <div id="home"></div>
@@ -39,7 +39,7 @@ function App () {
       
       <div className="projects" id="projects">
       <h1>Meus Projetos</h1>
-        <ul>
+        <ul >
           <li>
             <a href="https://vite-petflix.vercel.app/"><img src="https://cdn.mindminers.com/blog/uploads/2022/11/pets.png" className="img-projects" /></a>
           </li>
@@ -48,6 +48,21 @@ function App () {
           </li>
         </ul>
       </div>
+      <footer id="contact">
+        <div className="footer_cabeca">
+          <h2>Get in Touch</h2>
+          <p>Este é um ambiente de estudos onde estou aplicando aquilo que tenho aprendido</p>
+          <div className="social_media_icons">
+            <a href=""><img src="https://cdn.icon-icons.com/icons2/3261/PNG/512/instagram_logo_icon_206739.png" alt="" /></a>
+            <a href=""><img src="https://www.iconpacks.net/icons/1/free-linkedin-icon-112-thumb.png" alt="" /></a>
+          </div>
+        </div>
+        <div className="footer_cauda">
+          <div>Tal coisa</div>
+          <div>Coisa TAl</div>
+
+        </div>
+      </footer>
     </div>  
     </>
   )
