@@ -27,16 +27,23 @@ function App () {
             <li id="menu-contacts"><a href="#contact"><img src="https://cdn.icon-icons.com/icons2/2168/PNG/512/social_avatar_person_user_icon_133200.png" alt="" /><p>Contact</p></a></li>
           </ul>
       </div>
-      <div id="home"></div>
-      <div className="about-me"  >
+
+      {/* Home */}
+      <div className="about-me" id="home" >
         <div className="infos-about">
         <img src="eric-dev.jpeg" alt="" />
         <div className="infos-title"><h1>Olá! Eu sou o </h1> <p id="Eric"> Eric</p></div>
         
         <h3>Aqui é onde compartilho meu desenvolvimento na programação</h3>
         </div>
+
+        <div className="among_arrow"><img src="https://static.thenounproject.com/png/770646-200.png" alt="" /></div>
+
       </div>
-      
+
+
+
+      {/* Projetos */}
       <div className="projects" id="projects">
       <h1>Meus Projetos</h1>
         <ul >
@@ -47,10 +54,16 @@ function App () {
             <a href="https://app-rick-erics-projects-714eef46.vercel.app/"><img src="https://m.media-amazon.com/images/S/pv-target-images/5fb48c45e9ef92942d6ba6c84b6dd2d314b39a4833adabb18c110f95f6bdfa45.jpg" className="img-projects"/></a>
           </li>
         </ul>
+
+        <div className="among_arrow"><img src="https://static.thenounproject.com/png/770646-200.png" alt="" /></div>
       </div>
+
+      
+
+      {/* Footer */}
       <footer id="contact">
         <div className="footer_cabeca">
-          <h2>Get in Touch</h2>
+          <h1>Get in Touch</h1>
           <p>Este é um ambiente de estudos onde estou aplicando aquilo que tenho aprendido</p>
           <div className="social_media_icons">
             <a href=""><img src="https://cdn.icon-icons.com/icons2/3261/PNG/512/instagram_logo_icon_206739.png" alt="" /></a>
@@ -58,10 +71,20 @@ function App () {
           </div>
         </div>
         <div className="footer_cauda">
-          <div>Tal coisa</div>
-          <div>Coisa TAl</div>
+          <div className="footer_box">
+            <div className="footer_icon"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github" />
+            </div>
+            <div className="footer_info">https://github.com/ericmuniiz</div>
+          </div>
+          <div className="footer_box">
+            <div className="footer_icon"><img src="https://cdn-icons-png.flaticon.com/512/542/542638.png" alt="" />
+            </div>
+            <div className="footer_info">https://github.com/ericmuniiz</div>
+          </div>
 
         </div>
+
+       
       </footer>
     </div>  
     </>
